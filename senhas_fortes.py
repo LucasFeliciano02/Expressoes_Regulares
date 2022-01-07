@@ -4,7 +4,7 @@
 """
 Validando senhas fortes com Positive Lookahead
 
-.*  = qualquer coisa mais
+.*  = Qualquer coisa mais
 """
 
 import re
