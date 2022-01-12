@@ -1,2 +1,2 @@
 # Expressoes_Regulares
- - Expressões muito úteis para validações  
+ - Expressões muito úteis aprendido em curso para validações  
