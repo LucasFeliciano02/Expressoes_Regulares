@@ -1,2 +1,2 @@
 # Expressoes_Regulares
- - Expressões muito úteis aprendido em curso para validações, tais como: senhas, cpf, e-mais, IPv4, numeros e telefones
+ - Validadores.py, expressões regulares muito úteis para validações que é identificar uma cadeia de caracteres que contenham um determinado padrão dentro de uma string
