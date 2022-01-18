@@ -41,6 +41,3 @@ print(re.findall(r'\be\w+', texto, flags=re.I))  # Busca palavras Completas que 
 print(re.findall(r'\w+e\b', texto, flags=re.I))  # Traz apenas palavras quie terminam com a letra 'e'
 print()
 print(re.findall(r'\b\w{4}\b', texto, flags=re.I))  # Traz apenas palavras com 4 letras (sem a borda \b as palavras ficam cortadas)
-
-
-
