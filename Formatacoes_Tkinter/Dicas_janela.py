@@ -23,6 +23,8 @@ relief='solid', highlightthickness=1
 
 relief=RAISED, overrelief=RIDGE
 
+relief='flat', overrelief='solid'
+
 """
 
 
