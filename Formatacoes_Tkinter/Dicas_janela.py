@@ -15,6 +15,7 @@ Time New Roman
 ,relief=FLAT
 ,relief=SOLID  =  Deixa um quadrado em volta da label
 
+
 # * Ex de Entry:
 
 relief='solid', highlightthickness=1
@@ -23,7 +24,17 @@ relief='solid', highlightthickness=1
 
 relief=RAISED, overrelief=RIDGE
 
-relief='flat', overrelief='solid'
+# * Ex de Cores:
+
+Cinza_claro = "#d9d9d9"
+
+Roxo_brilho = "#48337d"
+
+Roxo_forte = "#444466"
+
+Azul = "#355ba6"
+
+Azul_2 = "#4065a1"
 
 """
 
@@ -34,6 +45,9 @@ relief='flat', overrelief='solid'
 
 
 from tkinter import *
+from tkinter import ttk
+from tkinter import messagebox
+
 
 janela = Tk()
 janela.title('Janela')
@@ -42,6 +56,10 @@ janela.config(bg='#949293')  # * cor
 # janela.iconphoto(False, PhotoImage(file='logo.png'))  OU  janela.iconbitmap('cadastro_db_icon.ico')  # * imagem do app
 
 janela.resizable(width=False, height=False)  # Bloquia a tela cheia e deixa como nao redirecionamento
+
+
+style = ttk.Style(janela)
+style.theme_use('clam')
 
 
 # * Centralizando o arquivo
